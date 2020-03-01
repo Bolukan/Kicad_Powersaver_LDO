@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5819W
+D 40V 1A Schottky Barrier Rectifier Diode, 0805
+K diode Schottky
+F https://www.rectron.com/public/product_datasheets/1n5817w-1n5819w.pdf
+$ENDCMP
+#
+$CMP 2N3904
+D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23
+K NPN Transistor
+F https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf
+$ENDCMP
+#
+$CMP AO3413
+D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/ao3413.pdf
+$ENDCMP
+#
+$CMP HT73xx-1-SOT89
+D 250mA Low Dropout Voltage Regulator, Fixed Output, SOT89
+K 250mA LDO Regulator Fixed Positive
+F https://www.holtek.com/documents/10179/116711/HT73xxv180.pdf
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+#End Doc Library
